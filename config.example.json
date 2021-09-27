@@ -1,0 +1,19 @@
+{
+    "usessl":false,
+    "certfiles":{
+        "certfile":"",
+        "keyfile":""
+    },
+    "services":{
+        "example.com":{
+            "domain":"example.com",
+            "schema":"http",
+            "host":"127.0.0.1:8080"
+        },
+        "example2.com":{
+            "domain":"example2.com",
+            "schema":"http",
+            "host":"127.0.0.1:8081"
+        }
+    }
+}
