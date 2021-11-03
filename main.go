@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	configs.Load("/Users/a6288678/github.com/Lornzo/ReverseProxyServer/testdata/config.json")
+	configs.Load("./config.json")
 	var reverse = ReverseProxy.New()
 	log.Println("Reverse Proxy Server start working...")
 	if configs.Get().UseSSL {
